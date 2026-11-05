@@ -1,0 +1,29 @@
+# Профиль браузера (сессии, cookies, токены)
+yandex_profile/
+yandex_profile_*/
+chrome_profile/
+playwright/.auth/
+*.session
+*.cookies
+
+# Логи и служебные файлы
+*.log
+metadata.json
+engine_allowlist.bf
+trusted_vault.pb
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Переменные окружения
+.env
+.env.*
+!.env.example
+
+# Скриншоты ошибок
+error_*.png
+screenshots/
